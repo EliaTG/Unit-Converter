@@ -86,10 +86,13 @@ p{
     margin: 5px 10px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .grid {
         height: auto;
         width: 320px;
         margin: 20px 5px;
+    }
+    .hero{
+        height: 300px;
     }
   }
