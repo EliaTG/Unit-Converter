@@ -29,14 +29,14 @@ btnConvert.addEventListener("click", function(){
     `
     volumeResults.textContent =
     `
-        ${numVar} liters  = ${(numVar*litersToGallons).toFixed(3)} gallons  
-        | ${numVar} gallons = ${(numVar*gallonsToLiters).toFixed(3)} liters
+        ${numVar} liters  = ${(numVar*gallonsToLiters).toFixed(3)} gallons  
+        | ${numVar} gallons = ${(numVar*litersToGallons).toFixed(3)} liters
     `
 
     massResults.textContent =
     `
-        ${numVar} kilos  = ${(numVar*poundsToKilos).toFixed(3)} pounds   
-        | ${numVar} pounds  = ${(numVar*kilosToPounds).toFixed(3)} kilos
+        ${numVar} kilos  = ${(numVar*kilosToPounds).toFixed(3)} pounds   
+        | ${numVar} pounds  = ${(numVar*poundsToKilos).toFixed(3)} kilos
     `
     numVar.value = "";
    document.getElementById("number").innerText = numVar
